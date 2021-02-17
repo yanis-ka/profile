@@ -1,0 +1,74 @@
+body {
+  background: rgb(200,200,220);
+  color: rgb(0,100,100);
+  font-size: 25px;
+  font-family: Helvetica;
+}
+h1{
+  font-family: Courier;
+  color: rgb(255,255,255);
+  font-weight: lighter;
+  font-size: 30px;
+}
+h2 {
+  font-family: Courier;
+  color: rgb(15,15,15);
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+a {
+  color: rgb(0,0,0);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(0,100,100);
+}
+
+.container{
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px  rgba(0,200,200,0.5);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+
+.center_text {
+  text-align: center;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 40px auto;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 40px auto;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 40px auto;
+  }
+}
+
