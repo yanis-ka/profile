@@ -1,33 +1,57 @@
 <!DOCTYPE html>
-
-<head>
+<html lang="fr">
+  <head>
     <title>My profile</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.0/css/all.css" integrity="sha384-eLT4eRYPHTmTsFGFAzjcCWX+wHfUInVWNm9YnwpiatljsZOwXtwV2Hh6sHM6zZD9" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon profile</title>
   </head>
-
+  
   <body>
-  <div class="container">
-    <div class="card center_text">
-      <h1>Hello, I'm Yanis</h1>
-      <img class="img-circle" src="images/avatar.jpeg" alt="Yanis Khellaf" width="100px" height="100px">
-      <h2>I'm a programmer</h2>
-      <p>
-        I love coding, web-development, sport (even if I don't look like it) and video games. I'm actualy following Le Wagon bootcamp.
-      </p>
-      <a href="https://www.lewagon.com/fr" class="btn-blue">Discover Le Wagon</a>
-    </div>
-    <div class="card center_text">
-      <h2>Follow me</h2>
-      <ul>
-        <li>
+
+    <div class="container flex-column">
+
+      <div class="presentation-card flex-column">
+
+        <h1>Salut, Je m'appelle Yanis</h1>
+        <img class="img-circle" src="images/avatar.jpeg" alt="Yanis Khellaf">
+        <h2>Je suis développeur web full stack</h2>
+        <p>
+          J'aime coder, et me spécialise coté backend. J'ai suivi le bootcamp développement web Le Wagon et ai obtenu une certification de Concepteur développeur d'applications web.
+          Je code principalement en ruby sur ruby-on-rail et en python sur Django.
+          Si vous voulez en savoir plus sur mes projets et les stacks que j'utilise, vous pouvez me suivre sur les lien ci-dessous.
+        </p>
+        <!-- <a href="https://www.lewagon.com/fr" class="btn-blue">Découvrez Le Wagon</a> -->
+
+      </div>
+
+      <div class="footer">
+
+        <h2>Follow me</h2>
+        
+        <div class="links">
           <a href="https://github.com/yanis-ka" target="_blank">
             <i class="fab fa-github-square"></i>
           </a>
-        </li>
-      </ul>
+          <a href="https://www.linkedin.com/in/yanis-khellaf/">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="https://troopl.com/yanis-khellaf">
+            <i class="fa-solid fa-rocket"></i>
+          </a>
+        </div>
+          
+      </div>
+
     </div>
-  </div>
-</body>
+
+  </body>
+
+</html>

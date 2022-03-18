@@ -1,53 +1,63 @@
-body {
-  background: rgb(200,200,220);
-  color: rgb(0,100,100);
-  font-size: 25px;
-  font-family: Helvetica;
-}
-h1{
-  font-family: Courier;
-  color: rgb(255,255,255);
-  font-weight: lighter;
+body{
+  background: #757F9A;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #D7DDE8, #757F9A);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #D7DDE8, #757F9A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Ubuntu', sans-serif;
   font-size: 30px;
-}
-h2 {
-  font-family: Courier;
-  color: rgb(15,15,15);
-  font-weight: lighter;
-  font-size: 20px;
-}
+}  
 
-a {
-  color: rgb(0,0,0);
+a{
   text-decoration: none;
+  color: inherit;
 }
 
 a:hover {
-  text-decoration: none;
-  color: rgb(0,100,100);
+  color: white;
+}
+
+h1{
+  font-size: 60px;
+}
+
+h2{
+  font-size: 45px;
+}
+
+
+
+img{
+  width: 450px;
+  height: 450px;
+  margin-bottom: 35px;
+}
+
+.flex-column{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
 }
 
 .container{
-  width: 700px;
+  justify-content: flex-start;
+  width: 900px;
   margin: 40px auto;
-}
-
-.card {
-  background-color: white;
-  padding: 40px;
-  box-shadow: 0px 10px 30px  rgba(0,200,200,0.5);
-  border-radius: 4px;
-  margin: 20px 0px;
   text-align: center;
 }
 
-
-.center_text {
-  text-align: center;
-}
 
 .img-circle {
-    border-radius: 50%;
+  border-radius: 50%;
+}
+
+.presentation-card{
+  justify-content: space-between;
+}
+
+.links{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 @media (max-width: 960px) {
